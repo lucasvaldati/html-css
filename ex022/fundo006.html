@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+            color > image > position > repeat > [size (n funciona, tem que ser separado)] > attachment*/
+            /*Shorthand da internet - background
+            color > image > position > / > size > repeat > attachment.*/
+
+            /*background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;*/
+
+            background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
+
+            
             
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +41,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam vero quae tempore aspernatur dolor molestias, nesciunt non itaque perferendis? Accusamus sint ipsam labore assumenda cupiditate asperiores et expedita nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi molestiae dolorem repellendus. Perferendis corporis pariatur necessitatibus obcaecati dignissimos quos sapiente, facere nulla cum facilis. Quidem sunt cupiditate possimus dolor consequuntur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa itaque debitis atque omnis voluptatibus consequatur voluptas repudiandae nobis vitae magni sequi, fugit, maiores accusamus qui sit accusantium veniam vero autem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam vero quae tempore aspernatur dolor molestias, nesciunt non itaque perferendis? Accusamus sint ipsam labore assumenda cupiditate asperiores et expedita nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi molestiae dolorem repellendus. Perferendis corporis pariatur necessitatibus obcaecati dignissimos quos sapiente, facere nulla cum facilis. Quidem sunt cupiditate possimus dolor consequuntur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa itaque debitis atque omnis voluptatibus consequatur voluptas repudiandae nobis vitae magni sequi, fugit, maiores accusamus qui sit accusantium veniam vero autem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam vero quae tempore aspernatur dolor molestias, nesciunt non itaque perferendis? Accusamus sint ipsam labore assumenda cupiditate asperiores et expedita nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi molestiae dolorem repellendus. Perferendis corporis pariatur necessitatibus obcaecati dignissimos quos sapiente, facere nulla cum facilis. Quidem sunt cupiditate possimus dolor consequuntur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa itaque debitis atque omnis voluptatibus consequatur voluptas repudiandae nobis vitae magni sequi, fugit, maiores accusamus qui sit accusantium veniam vero autem!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam vero quae tempore aspernatur dolor molestias, nesciunt non itaque perferendis? Accusamus sint ipsam labore assumenda cupiditate asperiores et expedita nulla. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi molestiae dolorem repellendus. Perferendis corporis pariatur necessitatibus obcaecati dignissimos quos sapiente, facere nulla cum facilis. Quidem sunt cupiditate possimus dolor consequuntur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa itaque debitis atque omnis voluptatibus consequatur voluptas repudiandae nobis vitae magni sequi, fugit, maiores accusamus qui sit accusantium veniam vero autem!</p>
     </main>
 </body>
