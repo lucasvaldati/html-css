@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte-sriracha: 'Sriracha', cursive;
+    --fonte-titulo: 'Passion One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    margin: auto;
+    padding: 60px;
+    font-family: var(--fonte-titulo);
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+h1 > p {    
+    font-size: 17px;    
+    color: white;
+    text-decoration: none;
+}
+p > a {
+    font-size: 22px;    
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+}
+p > a:hover {
+    text-decoration: underline;
+    color: rgb(231, 223, 233);
+}
+p.parte1 {
+    background-color: white;
+    text-align: left;
+    font-family: var(--fonte-sriracha);
+    font-size: 30px;
+    max-width: 500px;
+    padding: 80px 0px 80px 20px;    
+    height: 500px;
+    width: 500px;    
+}
+p.parte2 {
+    color: white;
+    font-family: var(--fonte-sriracha);
+    font-size: 30px;
+    max-width: 500px;
+    padding: 80px 0px 80px 20px;    
+    height: 500px;
+    width: 500px;       
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;           
+    height: 96vh;
+    padding: 10px; 
+}
+p.parte3 {
+    background-color: white;
+    font-family: var(--fonte-sriracha);
+    max-width: 200px;
+    padding: 10px;
+    margin: auto;    
+}
+p.parte4 {
+    background-color: white;
+    font-family: var(--fonte-sriracha);
+    max-width: 200px;
+    padding: 10px;
+    margin: auto;    
+}
+p.parte5 {
+    background-color: white;
+    font-family: var(--fonte-sriracha);
+    max-width: 200px;
+    padding: 10px;
+    margin: auto;    
+}
+p.parte6 {
+    background-color: white;
+    font-family: var(--fonte-sriracha);
+    max-width: 200px;
+    padding: 10px;
+    margin: auto;    
+}
+p.parte7 {
+    background-color: white;
+    font-family: var(--fonte-sriracha);
+    max-width: 200px;
+    padding: 10px;
+    margin: auto;    
+}
