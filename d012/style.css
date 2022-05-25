@@ -15,8 +15,7 @@
 h1 {
     background-color: black;
     color: white;
-    text-align: center;
-    
+    text-align: center;    
     margin: auto;
     padding: 60px;
     font-family: var(--fonte-titulo);
@@ -29,71 +28,47 @@ h1 > p {
     color: white;
     text-decoration: none;
 }
-p > a {
+
+div {
+    background-color: white;
+    text-align: left;
+    font-family: var(--fonte-sriracha);
+    font-size: 30px;    
+    padding: 80px 0px 80px 20px;   
+}
+
+p#h1 > a {
     font-size: 22px;    
     font-weight: lighter;
     color: white;
     text-decoration: none;
 }
-p > a:hover {
+p#h1 > a:hover {
     text-decoration: underline;
     color: rgb(231, 223, 233);
 }
-p.parte1 {
-    background-color: white;
-    text-align: left;
-    font-family: var(--fonte-sriracha);
-    font-size: 30px;
-    max-width: 500px;
-    padding: 80px 0px 80px 20px;    
-    height: 500px;
-    width: 500px;    
+
+div.parte2 {
+    color: white;    
+    background: black url('imagens/background001.jpg') center right/cover no-repeat fixed;       
+    height: 80vh;        
 }
-p.parte2 {
+
+div.parte5 {
+    color: white;    
+    background: black url('imagens/background002.jpg') center right/cover no-repeat fixed;       
+    height: 80vh;        
+}
+
+footer {
+    background-color: black;
     color: white;
-    font-family: var(--fonte-sriracha);
-    font-size: 30px;
-    max-width: 500px;
-    padding: 80px 0px 80px 20px;    
-    height: 500px;
-    width: 500px;       
-    background-image: url('imagens/background001.jpg');
-    background-position: center center;           
-    height: 96vh;
-    padding: 10px; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
-p.parte3 {
-    background-color: white;
-    font-family: var(--fonte-sriracha);
-    max-width: 200px;
-    padding: 10px;
-    margin: auto;    
-}
-p.parte4 {
-    background-color: white;
-    font-family: var(--fonte-sriracha);
-    max-width: 200px;
-    padding: 10px;
-    margin: auto;    
-}
-p.parte5 {
-    background-color: white;
-    font-family: var(--fonte-sriracha);
-    max-width: 200px;
-    padding: 10px;
-    margin: auto;    
-}
-p.parte6 {
-    background-color: white;
-    font-family: var(--fonte-sriracha);
-    max-width: 200px;
-    padding: 10px;
-    margin: auto;    
-}
-p.parte7 {
-    background-color: white;
-    font-family: var(--fonte-sriracha);
-    max-width: 200px;
-    padding: 10px;
-    margin: auto;    
+
+p.rodape > a {   
+    color: white;
+    text-decoration: none;
 }
